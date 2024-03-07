@@ -5,7 +5,7 @@
 
 A revised and modified version of the custom mode for [MapboxGL-Draw](https://github.com/mapbox/mapbox-gl-draw) to split polygons based on a drawn lineString from [Reyhane Masumi](https://github.com/ReyhaneMasumi/mapbox-gl-draw-split-polygon-mode/blob/main/.github/workflows/develop.yml).
 
-## [DEMO](https://marcosci.github.io/mapbox-split-polygon-mode/)
+## [DEMO](https://marcosci.github.io/mapbox-gl-draw-circle/)
 
 ![A GIF showing how to split a polygon](demo/example.gif)
 
