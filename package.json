@@ -1,6 +1,6 @@
 {
-  "name": "mapbox-split-polygon-mode",
-  "version": "0.2.1",
+  "name": "mapbox-gl-draw-circle",
+  "version": "0.1",
   "description": "A custom mode for MapboxGL Draw to split polygons",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcosci/mapbox-split-polygon-mode.git"
+    "url": "git+https://github.com/marcosci/mapbox-gl-draw-circle.git"
   },
   "keywords": [
     "mapbox",
@@ -21,15 +21,11 @@
     "geojson"
   ],
   "author": "Marco Sciaini",
-  "contributors": [
-    "Mohammad H. Sattarian",
-    "Reyhane Masumi"
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcosci/mapbox-split-polygon-mode/issues"
+    "url": "https://github.com/marcosci/mapbox-gl-draw-circle/issues"
   },
-  "homepage": "https://github.com/marcosci/mapbox-split-polygon-mode#readme",
+  "homepage": "https://github.com/marcosci/mapbox-gl-draw-circle#readme",
   "files": [
     "dist",
     "src"

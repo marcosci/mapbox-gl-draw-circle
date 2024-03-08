@@ -1,7 +1,7 @@
-[![NPM](https://img.shields.io/npm/v/mapbox-split-polygon-mode.svg)](https://www.npmjs.com/package/mapbox-split-polygon-mode)
-[![Release](https://github.com/marcosci/mapbox-split-polygon-mode/actions/workflows/release.yml/badge.svg)](https://github.com/marcosci/mapbox-split-polygon-mode/actions/workflows/release.yml)
+[![NPM](https://img.shields.io/npm/v/mapbox-gl-draw-circle.svg)](https://www.npmjs.com/package/mapbox-gl-draw-circle)
+[![Release](https://github.com/marcosci/mapbox-gl-draw-circle/actions/workflows/release.yml/badge.svg)](https://github.com/marcosci/mapbox-gl-draw-circle/actions/workflows/release.yml)
 
-# mapbox-split-polygon-mode
+# mapbox-gl-draw-circle
 
 A revised and modified version of the custom mode for [MapboxGL-Draw](https://github.com/mapbox/mapbox-gl-draw) to split polygons based on a drawn lineString from [Reyhane Masumi](https://github.com/ReyhaneMasumi/mapbox-gl-draw-split-polygon-mode/blob/main/.github/workflows/develop.yml).
 
@@ -12,13 +12,13 @@ A revised and modified version of the custom mode for [MapboxGL-Draw](https://gi
 ## Install
 
 ```bash
-npm install mapbox-split-polygon-mode
+npm install mapbox-gl-draw-circle
 ```
 
 or use CDN:
 
 ```html
-<script src="https://unpkg.com/mapbox-split-polygon-mode"></script>
+<script src="https://unpkg.com/mapbox-gl-draw-circle"></script>
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ import defaultDrawStyle from "@mapbox/mapbox-gl-draw/src/lib/theme.js";
 
 import SplitPolygonMode, {
   drawStyles as splitPolygonDrawStyles,
-} from "mapbox-split-polygon-mode";
+} from "mapbox-gl-draw-circle";
 
 const map = new mapboxgl.Map({
   container: "map",
