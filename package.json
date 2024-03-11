@@ -25,8 +25,17 @@
     "format": "prettier --write \"src/**/*.{js}\""
   },
   "dependencies": {
+    "@geostarters/mapbox-gl-draw-rectangle-assisted-mode": "^3.0.4",
+    "@turf/buffer": "^6.5.0",
+    "@turf/length": "^6.5.0",
     "@turf/turf": "6.5.0",
     "@types/numeral": "^2.0.5",
+    "mapbox-gl-draw-additional-tools": "^0.6.1",
+    "mapbox-gl-draw-rectangle-restrict-area": "^3.1.5",
+    "mapbox-gl-draw-scale-rotate-mode-revised": "^0.2.0",
+    "mapbox-gl-draw-select-mode": "^1.0.3",
+    "mapbox-gl-draw-snap-mode": "^0.2.0",
+    "mapbox-split-polygon-mode": "^0.2.1",
     "numeral": "^2.0.6"
   },
   "devDependencies": {
