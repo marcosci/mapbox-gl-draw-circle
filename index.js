@@ -3,13 +3,11 @@
 // } from "mapbox-gl-draw-select-mode";
 // import defaultDrawStyle from "https://unpkg.com/@mapbox/mapbox-gl-draw@1.3.0/src/lib/theme.js";
 
-import CircleMode, {drawStyles} from "..";
+import CircleMode, { drawStyles } from "./src/index";
 
 import "./index.css";
 
-
 let map, draw, drawBar;
-
 
 map = new mapboxgl.Map({
   container: "map", // container ID
@@ -24,14 +22,13 @@ map = new mapboxgl.Map({
 draw = new MapboxDraw({
   modes: {
     ...MapboxDraw.modes,
-    draw_circle: CircleMode.CircleMode
+    draw_circle: CircleMode.CircleMode,
   },
   displayControlsDefault: false,
   controls: {},
   styles: drawStyles,
   userProperties: true,
 });
-
 
 class extendDrawBar {
   constructor(opt) {
@@ -59,8 +56,8 @@ class extendDrawBar {
   }
   addButton(opt) {
     const ctrl = this;
-    const elButton = document.createElement('button');
-    elButton.className = 'mapbox-gl-draw_ctrl-draw-btn';
+    const elButton = document.createElement("button");
+    elButton.className = "mapbox-gl-draw_ctrl-draw-btn";
     if (opt.classes instanceof Array) {
       opt.classes.forEach((c) => {
         elButton.classList.add(c);
@@ -79,19 +76,19 @@ class extendDrawBar {
 
 window.draw = draw;
 
-drawBar =  new extendDrawBar({
+drawBar = new extendDrawBar({
   draw: draw,
   buttons: [
     {
-      on: 'click',
+      on: "click",
       action: () => {
-        console.log('draw_line_string')
-        draw.changeMode('draw_circle');
+        console.log("draw_line_string");
+        draw.changeMode("draw_circle");
       },
-      classes: ['fg-circle-o'],
-      title: 'Draw Circular Polygon (c)'
-    }
-  ]
+      classes: ["fg-circle-o"],
+      title: "Draw Circular Polygon (c)",
+    },
+  ],
 });
 
 map.once("load", () => {
