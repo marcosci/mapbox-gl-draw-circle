@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_API_KEY: ${{ secrets.VITE_MAPBOX_API_ACCESS_TOKEN }}
+          VITE_MAPBOX_API_ACCESS_TOKEN: ${{ secrets.VITE_MAPBOX_API_ACCESS_TOKEN }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
