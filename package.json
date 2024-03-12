@@ -1,5 +1,5 @@
 {
-  "name": "vite-npm-package",
+  "name": "mapbox-gl-draw-circle-mode",
   "version": "1.0.0",
   "description": "Vite JavaScript library npm package template",
   "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
@@ -22,8 +22,12 @@
     "dev": "vite build --watch",
     "start": "vite --host --open",
     "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "format": "prettier --write \"src/**/*.{js}\""
   },
+  "homepage": "https://marcosci.github.io/mapbox-gl-draw-circle-mode",
   "dependencies": {
     "@geostarters/mapbox-gl-draw-rectangle-assisted-mode": "^3.0.4",
     "@turf/buffer": "^6.5.0",
@@ -39,6 +43,7 @@
     "numeral": "^2.0.6"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "vite": "^5.1.4"
   },
