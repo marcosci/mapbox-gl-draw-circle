@@ -1,9 +1,8 @@
 {
-  "name": "mapbox-gl-draw-circle-mode",
-  "version": "1.0.0",
+  "name": "mapbox-draw-circle-mode",
+  "version": "1.1.3",
   "description": "Vite JavaScript library npm package template",
   "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
-  "homepage": "https://github.com/jasonsturges/vite-npm-package",
   "repository": "github:jasonsturges/vite-npm-package",
   "license": "ISC",
   "keywords": [
@@ -12,8 +11,8 @@
     "npm",
     "package"
   ],
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
+  "main": "dist/mapbox-gl-draw-circle-mode.cjs.js", 
+  "module": "dist/mapbox-gl-draw-circle-mode.es.js", 
   "type": "module",
   "files": [
     "dist"
